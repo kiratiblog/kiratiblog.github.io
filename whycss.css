@@ -1,0 +1,11 @@
+p {
+  font-family: 'Pattaya';
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  p {
+    font-size: 4vw;
+  }
+}

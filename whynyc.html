@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kiratiblog | สมัครค่าย NYC#13</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Pacifico|Pattaya|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="maincss.css">
+    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="whycss.css">
+  </head>
+  <body>
+
+    <div class="navphone">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="navbar" id="nav">
+      <a href="index.html">HOME</a>
+      <a class="active" href="whynyc.html">WHY NYC?</a>
+      <a href="qa.html">Q&A</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+
+    <div class="parallax-head">
+      <div class="text-head">
+        <span>Why NYC?</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <p>
+        พื้นฐานดูดาวดี&nbsp;&nbsp;
+        อุปกรณ์มีด้วยมือเรา <br>
+        ขึ้นเขามาดูดาว&nbsp;&nbsp;
+        สุขสกาวตั้งกล้องเป็น <br>
+        พบเห็นนักวิจัย&nbsp;&nbsp;
+        ดาราศาสตร์ไทยอันเลื่องลือ <br>
+        สถาบันอันเลื่องชื่อ&nbsp;&nbsp;
+        สุดตื่นตาหอดูดาว <br>
+        ค่ำคืนหนาวจับใจ&nbsp;&nbsp;
+        พากันไปสำรวจฟ้า <br>
+        เพื่อนจ๋ามาจากใด&nbsp;&nbsp;
+        พบกันในค่ายแห่งนี้ <br>
+        ผู้คนทั่วธานี&nbsp;&nbsp;
+        มาที่นี้รักสิ่งเดียวกัน <br>
+        อันใจรักดารานั้น&nbsp;&nbsp;
+        รักทุกวันไม่ผันแปร <br>
+        ก่อนแสงตะวันจ้า&nbsp;&nbsp;
+        ดวงดารายังงามเด่น <br>
+        เฉกเช่นดวงจันทรา&nbsp;&nbsp;
+        เร่งแหงนฟ้าดูดาวกัน <br>
+        มากกว่าสนุกสนาน&nbsp;&nbsp;
+        นั่นคือสานสัมพันธ์มิตร <br>
+        ประสบการณ์ของชีวิต&nbsp;&nbsp;
+        ที่ NARIT มีให้เรา <br><br>
+        ผมอยากจะเข้าค่ายนี้เพราะผมมีความชอบในสาขาดาราศาสตร์อยู่แล้ว อีกทั้งผมเล็งเห็นว่าการได้เข้าร่วมกิจกรรมในรูปแบบของค่ายนั้นมีประโยชน์ต่อตัวผมมาก ผมคาดว่าในค่ายแห่งนี้ผมจะได้ประสบการณ์ชีวิตมากมาย ทั้งการสานสัมพันธ์กับเพื่อน ๆ ที่ไม่เคยพบเจอกันมาก่อน หรือการวางแผนการเดินทางไปยังที่ต่าง ๆ และผมยังคาดหวังอีกว่าการมาเข้าค่ายในครั้งนี้ผมจะได้ฝึกฝนทักษะทางด้านดาราศาสตร์เพิ่มเติมให้กับตัวของผมเอง เช่น วิธีการดูาว การตั้งกล้องโทรทรรศน์ การสร้างอุปกรณ์ทางดาราศาตร์อย่างง่าย และอีกมากมาย อีกทั้งผมยังมีปณิธานที่จะได้ดูดาวบนยอดดอยอินทนนท์อีกด้วยซึ่งเป็นสิ่งที่ค่อนข้างยากยิ่งนักสำหรับเด็กภาคใต้อย่างผม
+      </p>
+    </div>
+
+    <footer>
+      <div>
+        Create by : Kirati Chumpraman <br> To apply to participate in the activity : Narit Youth Camp #13
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="totopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  </body>
+
+  <script type="text/javascript">
+    //Get the button:
+    totopbutton = document.getElementById("totopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        totopbutton.style.display = "block";
+      } else {
+        totopbutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function openNav() {
+      document.getElementById("nav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("nav").style.width = "0%";
+    }
+  </script>
+
+</html>

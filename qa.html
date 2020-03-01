@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kiratiblog | สมัครค่าย NYC#13</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Pacifico|Pattaya|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="maincss.css">
+    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="qacss.css">
+  </head>
+  <body>
+
+    <div class="navphone">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div class="navbar" id="nav">
+      <a href="index.html">HOME</a>
+      <a href="whynyc.html">WHY NYC?</a>
+      <a class="active" href="qa.html">Q&A</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+
+    <div class="parallax-head">
+      <div class="text-head">
+        <span>Question and Answer</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="card">
+        <div class="head">
+          <i class="fas fa-question"></i>
+          <h1>อยู่ภาคใต้แล้วไปเข้าค่ายอย่างไรล่ะ</h1>
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          เท่าที่ผมวางแผนการเดินทางเอาไว้ เป็นดังนี้ครับ
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-plane"></i>
+              <h1>Hat yai - Don muang</h1>
+            </div>
+            <p>
+              Flight 08:40 - 10:10 585 Baths
+            </p>
+          </div>
+
+          <br>
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-plane"></i>
+              <h1>Don muang - chiang mai</h1>
+            </div>
+            <p>
+              Flight 12:50 - 14:05 580 Baths
+            </p>
+          </div>
+
+          <br>
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-bus"></i>
+              <h1>chiang mai international ariport - Registration location</h1>
+            </div>
+            <p>
+              Chiang Mai Airport Shuttle Bus สาย A3 60 Baths
+            </p>
+            <br>
+          </div>
+
+      </div>
+
+      <br>
+
+      <div class="card">
+        <div class="head">
+          <i class="fas fa-question"></i>
+          <h1>ขากลับล่ะ เดินทางอย่างไร</h1>
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          เท่าที่ผมวางแผนการเดินทางเอาไว้ เป็นดังนี้ครับ
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-bus"></i>
+              <h1>Activity location - chiang mai international ariport</h1>
+            </div>
+            <p>
+              Chiang Mai Airport Shuttle Bus สาย A3 60 Baths
+            </p>
+          </div>
+
+          <br>
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-plane"></i>
+              <h1>chiang mai - Don muang</h1>
+            </div>
+            <p>
+              Flight 16:25 - 17:35 1958 Baths
+            </p>
+          </div>
+
+          <br>
+
+          <div class="small-card">
+            <div class="small-card-head">
+              <i class="fas fa-plane"></i>
+              <h1>Don muang - Hat yai</h1>
+            </div>
+            <p>
+              Flight 20:05 - 21:35 1958 Baths
+            </p>
+          </div>
+
+          <br>
+      </div>
+
+      <br>
+
+      <div class="card">
+        <div class="head">
+          <i class="fas fa-question"></i>
+          <h1>ค่าใช้จ่ายในการเดินทางล่ะ</h1>
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          เท่าที่ผมวางแผนการเดินทางเอาไว้ คาดว่าผมมีค่าใช้จ่ายในการเดินทางขาไปประมาณ 1195 บาท ขากลับประมาณ 2830 บาท
+        </p>
+      </div>
+
+      <br>
+
+      <div class="card">
+        <div class="head">
+          <i class="fas fa-question"></i>
+          <h1>เดินทางกับใครหรอ</h1>
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          คาดว่าน่าจะเดินทางไปกับคุณครูที่ปรึกษาครับ
+        </p>
+      </div>
+
+      <br>
+
+    </div>
+
+    <footer>
+      <div>
+        Create by : Kirati Chumpraman <br> To apply to participate in the activity : Narit Youth Camp #13
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="totopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  </body>
+
+  <script type="text/javascript">
+    //Get the button:
+    totopbutton = document.getElementById("totopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        totopbutton.style.display = "block";
+      } else {
+        totopbutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function openNav() {
+      document.getElementById("nav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("nav").style.width = "0%";
+    }
+  </script>
+
+</html>

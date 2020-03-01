@@ -1,0 +1,67 @@
+.content .card .head {
+  margin: 0;
+  padding: 0;
+  background-color: #2196F3;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  font-family: 'Pattaya';
+}
+.content .card .head i {
+  display: inline-block;
+  height: 100%;
+  font-size: 50px;
+  float: left;
+  padding: 20px;
+  color: #FF0000;
+}
+.content .card .head h1 {
+  display: inline-block;
+  font-size: 40px;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+  color: #ffffff;
+}
+.content .card p {
+  padding: 20px;
+  margin: 0;
+  font-family: 'Itim';
+  font-size: 25px;
+}
+
+#yokpic {
+  display: inline-block;
+  width: 45%;
+  margin-right: 20px;
+}
+#myself {
+  display: inline-block;
+  width: 50%;
+}
+#br {
+  content: '';
+  display: block;
+  height: 13px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .content .card .head {
+    text-align: center;
+  }
+  .content .card .head i {
+    display: none;
+  }
+  .content .card .head h1 {
+    font-size: 30px;
+  }
+  .content .card p {
+    font-size: 20px;
+  }
+  #yokpic {
+    display: block;
+    width: 100%;
+  }
+  #myself {
+    display: block;
+    width: 100%;
+  }
+}

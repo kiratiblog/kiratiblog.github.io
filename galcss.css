@@ -1,0 +1,14 @@
+#wait {
+  width: 100%;
+}
+p {
+  font-family: 'Pattaya';
+  font-size: 50px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  p {
+    font-size: 4vw;
+  }
+}

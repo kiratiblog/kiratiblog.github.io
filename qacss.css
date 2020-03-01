@@ -1,0 +1,34 @@
+.small-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  margin: 0px 50px 0px 50px;
+}
+.small-card-head {
+  margin: 0;
+  padding: 0;
+  background-color: #FF0000;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  font-family: 'Itim';
+}
+.small-card-head i {
+  display: inline-block;
+  height: 100%;
+  font-size: 40px;
+  float: left;
+  padding: 20px;
+  color: #ffffff;
+}
+.small-card-head h1 {
+  display: inline-block;
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1080px) {
+  .small-card-head i {
+    display: none;
+  }
+}
